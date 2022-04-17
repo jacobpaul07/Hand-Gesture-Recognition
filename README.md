@@ -7,4 +7,5 @@
 
 #### Type 2    
   video link: https://youtu.be/zuOiqpWZF2s
+  
   tensorflow download link: https://github.com/lhelontra/tensorflow-on-arm/releases
