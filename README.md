@@ -6,5 +6,5 @@
   Ref Link: https://towardsdatascience.com/3-ways-to-install-tensorflow-2-on-raspberry-pi-fe1fa2da9104  
 
 #### Type 2    
-  Video link: https://youtu.be/zuOiqpWZF2s
+  Video link: https://youtu.be/zuOiqpWZF2s 
   Tensorflow download link: https://github.com/lhelontra/tensorflow-on-arm/releases
