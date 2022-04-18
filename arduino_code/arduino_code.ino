@@ -1,9 +1,17 @@
 int x;
+int relay_one = 5 ;  
+int relay_two = 6;
+int relay_three = 7;
+int relay_four = 8;
 
 void setup() {
   Serial.begin(115200);
   Serial.setTimeout(1);
   pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(relay_one, OUTPUT);
+  pinMode(relay_two, OUTPUT);
+  pinMode(relay_three, OUTPUT);
+  pinMode(relay_four, OUTPUT);
 }
 
 void loop() {
@@ -11,10 +19,16 @@ void loop() {
   while (!Serial.available());
   x = Serial.readString().toInt();
   Serial.print(x);
-  if( x==1 ){
-    digitalWrite(LED_BUILTIN, HIGH);
+  if(x==111){
+    digitalWrite(relay_one, HIGH);
     }
-  else{
-    digitalWrite(LED_BUILTIN, LOW);
+  else if(x==110){
+    digitalWrite(relay_one, LOW);
+    }
+  else if(x==121){
+    digitalWrite(relay_two, HIGH);
+    }
+  else if(x==120){
+    digitalWrite(relay_two, LOW);
     }
 }
