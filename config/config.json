@@ -1,4 +1,6 @@
 {
+	"arduino_port" : "dev/ttyUSB0",
+	"speechToText" : "Disable",
 	"top_left": [20, 10],
 	"bot_right": [220, 210],
 	"mappings": {

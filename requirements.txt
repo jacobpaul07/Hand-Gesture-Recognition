@@ -28,6 +28,6 @@ tensorflow~=2.0.0
 tinydb
 twilio
 zmq
-
+pyserial
 opencv-python~=4.5.5.64
 gtts~=2.2.4

@@ -8,14 +8,15 @@ import pyttsx3
 # play the converted audio
 
 
-def text_to_speech(text):
+def text_to_speech(text, enable):
     try:
-        engine = pyttsx3.init()
-        engine.say(text)
-        engine.runAndWait()
+        if enable == "Enable":
+            engine = pyttsx3.init()
+            engine.say(text)
+            engine.runAndWait()
 
     except Exception as ex:
-        print("OPCUA Reader - Device is not Connected Error:", ex)
+        print("Text_To_Speech", ex)
         exc_type, exc_obj, exc_tb = sys.exc_info()
         f_name = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
         print(exc_type, f_name, exc_tb.tb_lineno)
