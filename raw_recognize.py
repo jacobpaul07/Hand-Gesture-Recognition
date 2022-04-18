@@ -1,5 +1,5 @@
 # USAGE
-# python recognize_12.py --conf config/config.json
+# python raw_recognize.py --conf config/config.json
 
 # import the necessary packages
 from Python_Serial_to_Arduino import arduino_serial_write
