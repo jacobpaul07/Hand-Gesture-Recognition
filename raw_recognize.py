@@ -219,15 +219,15 @@ while True:
                         on_flag = 0
                         flag = 0
                         print("first room 1st device on")
-                        arduino_serial_write(x=111, port=arduino_port)
                         time.sleep(2)
+                        arduino_serial_write(x=111, port=arduino_port)
                         break
                     elif label == "four" and on_flag == 1:
                         on_flag = 0
                         flag = 0
                         print("first room 1st device off")
-                        arduino_serial_write(x=110, port=arduino_port)
                         time.sleep(2)
+                        arduino_serial_write(x=110, port=arduino_port)
                         break
 
                     if (flag == 0):
@@ -278,15 +278,15 @@ while True:
                         on_flag = 0
                         flag = 0
                         print("first room 2nd device on")
-                        arduino_serial_write(x=121, port=arduino_port)
                         time.sleep(2)
+                        arduino_serial_write(x=121, port=arduino_port)
                         break
                     elif label == "four" and on_flag == 1:
                         on_flag = 0
                         flag = 0
                         print("first room 2nd device off")
-                        arduino_serial_write(x=120, port=arduino_port)
                         time.sleep(2)
+                        arduino_serial_write(x=120, port=arduino_port)
                         break
 
                     if (flag == 0):
@@ -373,15 +373,15 @@ while True:
                         on_flag = 0
                         flag = 0
                         print("Second room 1st device on")
+                        time.sleep(2)
                         arduino_serial_write(x=211, port=arduino_port)
-                        time.sleep(1)
                         break
                     elif label == "four" and on_flag == 1:
                         on_flag = 0
                         flag = 0
                         print("Second room 1st device off")
+                        time.sleep(2)
                         arduino_serial_write(x=210, port=arduino_port)
-                        time.sleep(1)
                         break
 
                     if (flag == 0):
@@ -436,15 +436,15 @@ while True:
                         on_flag = 0
                         flag = 0
                         print("Second room 2nd device on")
+                        time.sleep(2)
                         arduino_serial_write(x=211, port=arduino_port)
-                        time.sleep(1)
                         break
                     elif label == "four" and on_flag == 1:
                         on_flag = 0
                         flag = 0
                         print("Second room 2nd device off")
+                        time.sleep(2)
                         arduino_serial_write(x=210, port=arduino_port)
-                        time.sleep(1)
                         break
 
                     if (flag == 0):
