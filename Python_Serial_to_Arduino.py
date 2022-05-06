@@ -3,11 +3,10 @@ import sys
 
 import serial
 import time
-
+arduino = serial.Serial(port="/dev/ttyAMC0", baudrate=115200)
 
 def arduino_serial_write(x, port):
     try:
-        arduino = serial.Serial(port=port, baudrate=115200, timeout=.1)
         arduino.write(bytes(x, 'utf-8'))
         time.sleep(0.05)
         data = arduino.readline()

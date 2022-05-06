@@ -31,4 +31,16 @@ void loop() {
   else if(x==120){
     digitalWrite(relay_two, LOW);
     }
+  else if(x==211){
+    digitalWrite(relay_three, HIGH);
+    }
+  else if(x==210){
+    digitalWrite(relay_three, LOW);
+    }
+  else if(x==221){
+    digitalWrite(relay_four, HIGH);
+    }
+  else if(x==220){
+    digitalWrite(relay_four, LOW);
+    }
 }
