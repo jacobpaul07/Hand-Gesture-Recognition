@@ -29,5 +29,5 @@ tinydb
 twilio
 zmq
 pyserial
-opencv-python~=4.5.5.64
+opencv-python~=4.8.1.78.64
 gtts~=2.2.4
