@@ -14,7 +14,7 @@ google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio==1.44.0
 h5py==2.10.0
-idna==3.3
+idna==3.7
 importlib-metadata==4.11.3
 imutils==0.5.4
 JSON-minify==0.3.0
