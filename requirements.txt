@@ -31,3 +31,4 @@ zmq
 pyserial
 opencv-python~=4.5.5.64
 gtts~=2.2.4
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
